@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles\style3.css">
+</head>
+<body>
+    <div>
+        <div class="A">
+            <h1 style="color:#E25822;">Please Fill The Information</h1>
+            <h3 style="color:red">Or this cat and dog will maul you to death</h3>
+        </div>
+        <div class="B">
+            <img src="image\Cat.png" width="200px"> <img src="image\Dog.png" width="200px">
+
+        </div>
+        <div class="C">
+            <form>
+                <fieldset style="color:aqua;">
+                    <legend><b>ข้อมูลส่วนตัว</b></legend>
+                    <label>คำนำหน้า :</label>
+                    <select required>
+                        <option disabled selected value="">-</option>
+                        <option value="1">เด็กชาย</option>
+                        <option value="2">เด็กหญิง</option>
+                        <option value="3">นาย</option>
+                        <option value="4">นาง</option>
+                        <option value="5">นางสาว</option>
+                    </select>
+                    <label>ชื่อจริง :</label>
+                    <input type="ชื่อจริง" placeholder="ใส่ชื่อจริง" required>
+                    <label>นามสกุล :</label>
+                    <input type="นามสกุล" placeholder="ใส่นามสกุล" required>
+                    <br><br>
+                    <label>อายุ :</label> 
+                    <select required>
+                        <option disabled selected value="">-</option>
+                        <option value="1">11-20</option>
+                        <option value="2">21-30</option>
+                        <option value="3">31-40</option>
+                        <option value="4">41-50</option>
+                        <option value="5">51-60</option>
+                        <option value="6">61+</option>
+                    </select>
+                    <br><br>
+                    <label>E-mail</label>
+                    <input type="E-mail" placeholder="ใส่ E-mail"
+                    <br><br>
+        
+                </fieldset>
+                <fieldset style="color:aqua;">
+                    <legend><b>ความสนใจ</b></legend>
+                    <input type="checkbox">
+                    <label>เขียนโปรแกรม</label>
+                    <input type="checkbox">
+                    <label>AI</label>
+                    <input type="checkbox">
+                    <label>Java</label>
+                    <br><br>
+                    <label>Comment :</label>
+                    <br>
+                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

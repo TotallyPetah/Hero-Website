@@ -1,0 +1,19 @@
+* {
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+    background-image: linear-gradient(180deg, rgba(30, 202, 28, 1) 7%, rgba(43, 0, 255, 1) 93%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.A {
+    display: flex;
+    flex-direction: row;
+}
