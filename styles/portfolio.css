@@ -181,10 +181,23 @@ footer {
     max-width: 50%;
     height: auto;
     margin-bottom: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.project img:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 .contact img {
     max-width: 3%;
     height: auto;
     margin-bottom: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact img:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
